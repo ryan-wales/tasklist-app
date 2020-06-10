@@ -1,0 +1,24 @@
+.tasklist-text {
+  padding: 0;
+  width: 90%;
+  font-size: 16pt;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.tasklist-item {
+  border-bottom: solid 1px lightgray;
+  padding: 5px;
+  list-style: none;
+  vertical-align: middle;
+}
+
+.tasklist-is-complete {
+  color: grey;
+  text-decoration: line-through;
+}
+
+$family-primary: Arial, sans-serif;
+
+@import "../node_modules/bulma/bulma.sass";
